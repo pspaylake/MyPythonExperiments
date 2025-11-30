@@ -8,7 +8,7 @@ def quiz():
     print("(B) ls")
     print("(C) echo")
     print("(D) test")
-    ans1 = input("Your answer: ")
+    ans1 = input("Your answer: ").upper()
     if ans1 == "A" or ans1.lower() == "cat file.txt":
         print("CORRECT")
         score += 1
@@ -21,7 +21,7 @@ def quiz():
     print("(B) matches empty lines")
     print("(C) echo")
     print("(D) test")
-    ans2 = input("Your answer: ")
+    ans2 = input("Your answer: ").upper()
     if ans2 == "B" or ans2.lower() == "matches empty lines":
         print("CORRECT")
         score += 1
